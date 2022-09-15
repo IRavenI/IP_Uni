@@ -98,7 +98,7 @@ void RSA(long p, long q, long d, long m)
     long e = inverse(d, p);
     long P = mod_aX(m, e, (p * q));
     cout << "\n-----------RSA-----------\n";
-    cout << "Secter key: " << e << "\n";
+    cout << "Secret key: " << e << "\n";
     cout << "Message: " << P << endl;
 }
 
